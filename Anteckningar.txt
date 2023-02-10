@@ -1,0 +1,53 @@
+<Div. anteckningar och ideer om hur något bör utföras>
+
+Github Cheatsheet:
+
+
+Skapa en ny mapp
+mkdir <mapp_namn>
+
+#"Change Directory"
+cd <mapp_namn>
+
+# Initialisera ett Git repository 
+git init 
+
+# Kolla statusen på repot 
+git status 
+
+# Lägg till filer i repot 
+git add <fil_namn> 
+
+# Commita ändringar till repot 
+git commit -m "Commit meddelande" 
+
+# Anslut till ett remote repo 
+git remote add origin <remote_repository_URL> 
+
+# klonar en remote repository
+git clone <remote_repository_URL> 
+
+# Skicka ändringar till det fjärrlagrade repot 
+git push origin <branch_name> 
+
+# Hämta ändringar från det fjärrlagrade repot 
+git pull origin <branch_name> 
+
+# Skapa en ny branch 
+git branch <branch_name> 
+
+# Byt till en annan branch 
+git checkout <branch_name> 
+
+# Sammanfoga en branch med den nuvarande branchen   
+ git merge <branch_name>
+
+ # Återställ till ett tidigare commit   
+ git revert <commit_hash>
+
+# Visa Git log   
+ git log
+ 
+# Skicka ändringar till det fjärrlagrade repot 
+git push origin <branch_name> 
+
